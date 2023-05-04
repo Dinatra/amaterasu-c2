@@ -1,0 +1,22 @@
+{
+  "name": "demonstrateur",
+  "version": "1.0.0",
+  "description": "Desmontrator for c2 malware project",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
